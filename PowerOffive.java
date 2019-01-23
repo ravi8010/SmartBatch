@@ -1,8 +1,9 @@
 
 
-import java.util.*;
+import java.util.Scanner;
 
-public class PowerOf2 {
+public class PowerOffive {
+
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner in= new Scanner(System.in);
@@ -11,24 +12,27 @@ public class PowerOf2 {
 		in.close();
 		if(isPowOfTwo(number))
 		{
-			System.out.println("power of 2");
+			System.out.println("power of 5");
 		}
 		else {
-			System.out.println("not power of 2");
+			System.out.println("not power of 5");
 		}
 	}
 	private static boolean isPowOfTwo(int number)
 	{
-		if(number%2!=0)
+		if(number%5!=0)
 		{
 			return false;
 		}
 		else {
 			for(int i=0; i<=number;i++) {
-				if(Math.pow(2,i)==number)
+				if(Math.pow(5,i)==number)
 					return true;
 			}
 		}
 		return false;
+	
+			
 	}
+
 	}

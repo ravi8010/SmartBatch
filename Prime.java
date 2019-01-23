@@ -26,7 +26,7 @@ public class Prime {
 				System.out.print(i+" ");
 			}
 		}
-
+sc.close();
 	}
 
 }
